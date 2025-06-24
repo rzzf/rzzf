@@ -26,6 +26,7 @@ function fetchNextHoliday(): Promise<Holiday> {
             const {
               holiday: { name, date, rest },
             } = JSON.parse(data) as HolidayResponse
+            console.log('rest: ', rest)
             resolve({ name, date, rest })
           } catch (error) {
             reject(error)
