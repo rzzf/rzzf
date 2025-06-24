@@ -2,7 +2,7 @@ name: Update Holiday Countdown
 
 on:
   schedule:
-    - cron: 16 16 * * *
+    - cron: 17 17 * * *
   workflow_dispatch:
 
 jobs:
