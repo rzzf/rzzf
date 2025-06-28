@@ -8,7 +8,6 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    environment: user-info
     steps:
       - uses: actions/checkout@v3
 
@@ -33,12 +32,10 @@ jobs:
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
-          GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
           REPO: ${{ github.repository }}
         run: |
-          git config --global user.name "${GIT_USER_NAME}"
-          git config --global user.email "${GIT_USER_EMAIL}"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add README.md
 
