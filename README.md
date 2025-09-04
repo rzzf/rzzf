@@ -2,6 +2,7 @@
 
 * 💼 I’m currently working on front-end
 * 🙊 I don’t really speak English, so I’m using machine translation to help me out. Sorry if anything sounds a bit off — and thanks for your patience!
+* 💻 I’ve been training for two and a half years.
 
 <!-- holiday-start -->
 📅 下一个节假日是：**国庆节 (2025-10-01)**
