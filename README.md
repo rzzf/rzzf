@@ -5,7 +5,7 @@
 * 🙊 I don’t speak much English, so I’m using machine translation. Thanks for your patience!
 
 <!-- holiday-start -->
-📅 下一个节假日是：**国庆节 (2025-10-07)**
+📅 下一个节假日是：**国庆节 (2025-10-08)**
 
 ⏳ 距离还有：**1 天**
 <!-- holiday-end -->
