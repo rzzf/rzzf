@@ -7,17 +7,6 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch"
-  },
-  "devDependencies": {
-    "@configurajs/eslint": "^0.1.2",
-    "@configurajs/prettier": "^0.1.4",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.2",
-    "@types/node": "^24.0.3",
-    "eslint": "^9.29.0",
-    "prettier": "^3.6.0",
-    "prettier-plugin-packagejson": "^2.5.15",
-    "tsup": "^8.5.0"
+    "generate": "node src/index.js"
   }
 }

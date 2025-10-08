@@ -20,14 +20,8 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build TypeScript
-        run: pnpm run build
-
       - name: Run script
-        run: node dist/index.js
+        run: pnpm run generate
 
       - name: Commit and push changes
         env:
